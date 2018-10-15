@@ -1,0 +1,267 @@
+header div,
+.icon,
+.as_seen_in,
+.brooklyn,
+.manhattan {
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.right_side {
+  float: right;
+  padding: 30px;
+}
+
+.header_button {
+  padding: 20px 70px 20px 0;
+}
+
+button {
+  padding: 10px 30px;
+  font-family: Avenir, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  border: 1px solid #C0C0C0;
+  border-radius: 50px;
+  color: white;
+}
+
+.signature {
+  font-size: 66%;
+}
+
+.left_side figure {
+  margin: 10px 70px;
+}
+
+#first_image {
+  background-image: url(78.jpg);
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.first_image {
+  text-align: center;
+}
+
+.first_image .white_font:first-child {
+  font-size: 3em;
+}
+
+.icon figure img {
+  height: 190px;
+  width: 190px;
+  border: 1px solid #708090;
+  border-radius: 30px;
+}
+
+.icons {
+  position: relative;
+  top: 4em;
+}
+
+.as_seen_in img {
+  width: auto;
+  height: 65px;
+  padding: 25px 25px 25px 0;
+}
+
+.as_seen_in p {
+  font-family: Avenir, "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: #696969;
+  width: 120px;
+}
+
+#as_seen_in {;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+}
+
+#places_for_to_store {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  color: #2F4F4F;
+}
+
+.left_side a:visited,
+.left_side a:hover,
+.left_side a:link,
+.left_side a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.right_side a:visited,
+.right_side a:hover,
+.right_side a:link,
+.right_side a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.left_side a,
+.right_side a {
+  font-family: Avenir, "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 2px black, 0 0 1em #191970;
+  font-size: 2em;
+}
+
+input {
+  height: 38px;
+  width: 380px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.white_font {
+  font-family: Avenir, "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 10px black;
+  color: white;
+}
+
+form {
+  margin: 20px 0;
+}
+
+main p {
+  font-size: 20px;
+}
+
+.icon figcaption {
+  font-family: Avenir, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}
+
+#as_seen_in .as_seen_in:first-child {
+  padding-right: 20px;
+}
+
+#places_for_to_store h1,
+#information h1,
+#places_for_to_store ul,
+.easy,
+.affordable,
+.safe,
+footer h1,
+main p {
+ margin: 0;
+ padding: 0 10%;
+}
+
+#information {
+  background-color: #E6E6FA;
+  color: #2F4F4F;
+}
+
+#places_for_to_store h1,
+#information h1 {
+  text-align: center;
+  padding: 40px 0 25px;
+}
+
+#places_for_to_store ul {
+  list-style-type: none;
+}
+
+.nyc li,
+.san_francisco li {
+  text-decoration: underline;
+}
+
+.how_to_store,
+.where_to_store_nyc,
+.where_to_store_sf,
+.easy,
+.affordable,
+.safe {
+  font-size: 1.8em;
+}
+
+.instruction,
+.manhattan,
+.brooklyn,
+.san_francisco{
+  font-size: 1.5em;
+}
+
+#places_for_to_store ul:last-child,
+#information p:last-child {
+  padding-bottom: 40px;
+}
+
+.nyc {
+  display: flex;
+}
+
+footer {
+  background: linear-gradient(45deg, #1E90FF, #EECFBA, #C5DDE8);
+  color: #2F4F4F;
+}
+
+.footer_blocks {
+  display: flex;
+}
+
+.footer_inf {
+  width: 40%;
+  padding: 2% 10%;
+  font-size: 18px;
+}
+
+footer ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 20px 50px;
+  margin-bottom: 0;
+}
+
+.company,
+.useful_links {
+  font-size: 20px;
+}
+
+.company a:visited,
+.company a:hover,
+.company a:link,
+.company a:active {
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+.useful_links a:visited,
+.useful_links a:hover,
+.useful_links a:link,
+.useful_links a:active {
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+.company ul li:first-child,
+.useful_links ul li:first-child {
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+hr {
+  width: 75%;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+}
